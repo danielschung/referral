@@ -109,6 +109,9 @@ input {
   text-align: center;
   margin-top: 0.9em; }
 
+button {
+  outline: none; }
+
 .submit-button {
   background-color: #974a4f;
   border: none;
