@@ -1,0 +1,192 @@
+//variables
+$lightgrey:#f4f4f4;
+$grey:#d2d2d2;
+$darkgrey:#8e8e8e;
+$black:#282828;
+$white:#f8f8f8;
+$red:#974a4f;
+$font-stack:'Open Sans', sans-serif;
+
+
+//global
+html, body, h1, h2, p{
+	margin:0;
+	padding:0;
+	font-family:$font-stack;
+}
+
+body {
+	background-color:$white;
+}
+
+
+main {
+	width:70.8em;
+	height:100vh;
+	margin:0 auto;
+}
+
+.vertical-center {
+	position:relative;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+.centered {
+	text-align:center;
+}
+
+
+//main-text
+
+.main-text-wrapper {
+	margin:0;
+	width:33em;
+	@extend .vertical-center;
+}
+
+.main-h1 {
+	font-size:3.7em;
+	font-weight:400;
+}
+
+.main-text-container {
+	padding:0.2em;
+}
+
+.main-h2 {
+	font-size:1.3em;
+	font-weight:300;
+	padding:0.4em 0;
+}
+
+.main-p {
+	font-size:0.97em;
+	font-weight:300;
+	line-height:1.6em;
+	padding:0.5em 0;
+}
+
+
+//form
+
+.form-wrapper {
+	background-color:white;
+	border-radius:14px;
+	-webkit-box-shadow: 0px 0px 67px 14px rgba(224,224,224,0.49);
+	-moz-box-shadow: 0px 0px 67px 14px rgba(224,224,224,0.49);
+	box-shadow: 0px 0px 67px 14px rgba(224,224,224,0.49);
+	float:right;
+	height:39.57em;
+	position:relative;
+	top:-8.5em;
+	width:33.8em;
+}
+
+.form-container {
+	height:10em;
+	margin:0 auto;
+	position:relative;
+	top:2.5em;
+	width:83%;
+}
+
+.form-h2 {
+	font-size:1.6em;
+	font-weight:300;
+	padding:0 0.2em;
+}
+
+input {
+	background-color:$white;
+	border: 1px solid $grey;
+	border-radius:2px;
+	height:2.6em;
+	font-size:1em;
+	font-weight:400;
+	margin:0.44em auto;
+	outline:none;
+	padding:0 0 0 1.3em;
+}
+
+::placeholder {
+	color:$darkgrey;
+}
+
+.name-box {
+	margin-top:1em;
+	width:44%;
+}
+
+.last {
+	float:right;
+}
+
+.long-box {
+	width:95.4%;
+}
+
+.line {
+	background-color:$grey;
+	height:1px;
+	position:relative;
+	top:4.5em;
+}
+
+.second-container {
+	top:6.8em;
+}
+
+.form-center-text {
+	color:$darkgrey;
+	font-size:0.97em;
+	font-weight:400;
+	margin-top:0.5em;
+	text-align:center;
+}
+
+.form-button-container {
+	text-align:center;
+	margin-top:0.9em;
+}
+
+.submit-button {
+	background-color:$red;
+	border:none;
+	color:$white;
+	font-size:1.2em;
+	font-weight:300;
+	height:3em;
+	width:10.5em;
+}
+
+//confirmation.html
+
+.form-container-2 {
+	top:13em;
+}
+
+.form-button-container-2 {
+	margin-top:2.2em;
+}
+
+.learn-more-button {
+	background-color:$white;
+	border: 1px solid $grey;
+	color:$black;
+	font-size:1.2em;
+	font-weight:300;
+	height:3em;
+	margin-right:0.4em;
+	width:10.5em;
+}
+
+
+
+
+
+
+
+
+
+
