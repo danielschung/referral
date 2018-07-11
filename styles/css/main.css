@@ -110,7 +110,11 @@ input {
   margin-top: 0.9em; }
 
 button {
-  outline: none; }
+  outline: none;
+  -o-transition: all .2s ease-in-out;
+  -ms-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out; }
 
 .submit-button {
   background-color: #974a4f;
@@ -120,6 +124,9 @@ button {
   font-weight: 300;
   height: 3em;
   width: 10.5em; }
+
+.submit-button:hover {
+  background-color: #282828; }
 
 .form-container-2 {
   top: 13em; }
@@ -136,5 +143,10 @@ button {
   height: 3em;
   margin-right: 0.4em;
   width: 10.5em; }
+
+.learn-more-button:hover {
+  background-color: #282828;
+  border: none;
+  color: #f8f8f8; }
 
 /*# sourceMappingURL=main.css.map */
