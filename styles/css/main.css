@@ -21,7 +21,8 @@ main {
 
 .main-text-wrapper {
   margin: 0;
-  width: 33em; }
+  width: 30em;
+  top: 25.7em; }
 
 .main-h1 {
   font-size: 3.7em;
